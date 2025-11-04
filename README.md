@@ -1,76 +1,76 @@
-# 🧩 Algorithm Collection (Python)
+# 🧩 Coleção de Algoritmos (Python)
 
-This repository contains implementations of fundamental algorithms in **Python**, focused on computer science and graph theory concepts.
+Este repositório contém implementações de algoritmos fundamentais em **Python**, com foco em **estrutura de dados** e **teoria dos grafos**.
 
-Each algorithm is implemented with **clear code**, **comments**, and organized structure to make learning easier.
-
----
-
-## 📚 Table of Contents
-
-- [About](#about)
-- [Algorithms](#algorithms)
-  - [Graph Search](#graph-search)
-    - [BFS – Breadth-First Search](#bfs--breadth-first-search)
-    - [DFS – Depth-First Search](#dfs--depth-first-search)
-- [How to Run](#how-to-run)
-- [Future Additions](#future-additions)
-- [License](#license)
+Cada algoritmo é implementado com **código limpo** e uma **estrutura organizada** para facilitar o aprendizado.
 
 ---
 
-## 🧾 About
+## 📚 Índice
 
-This project serves as a **learning and reference resource** for common algorithms used in:
-- Data Structures
-- Graph Theory
-- Artificial Intelligence
-- Pathfinding
-
-Each algorithm file includes:
-- A short explanation
-- Python implementation
-- Example of execution
+- [Sobre](#sobre)
+- [Algoritmos](#algoritmos)
+  - [Busca em Grafos](#busca-em-grafos)
+    - [BFS – Busca em Largura](#bfs--busca-em-largura)
+    - [DFS – Busca em Profundidade](#dfs--busca-em-profundidade)
+- [Como Executar](#como-executar)
+- [Próximas Adições](#próximas-adições)
+- [Licença](#licença)
 
 ---
 
-## ⚙️ Algorithms
+## 🧾 Sobre
 
-### 🕸️ Graph Search
+Este projeto serve como um **material de estudo e referência** para algoritmos amplamente usados em:
+- Estruturas de Dados  
+- Teoria dos Grafos  
+- Inteligência Artificial  
+- Busca e Caminho Mínimo  
 
-#### **BFS – Breadth-First Search**
-
-**Description:**  
-Explores all neighbors of a node before moving to the next level.  
-Uses a **queue** data structure (FIFO).  
-
-**Use cases:**  
-- Finding the shortest path in an unweighted graph  
-- Network exploration  
-- Maze solving  
-
-📄 **File:** `bfs.py`
+Cada arquivo de algoritmo inclui:
+- Uma explicação breve  
+- Implementação em Python  
+- Exemplo de execução  
 
 ---
 
-#### **DFS – Depth-First Search**
+## ⚙️ Algoritmos
 
-**Description:**  
-Goes as deep as possible along one branch before backtracking.  
-Uses a **stack** (or recursion).  
+### 🕸️ Busca em Grafos
 
-**Use cases:**  
-- Exploring all nodes in a graph  
-- Backtracking problems  
-- Detecting cycles  
+#### **BFS – Busca em Largura**
 
-📄 **File:** `dfs.py`
+**Descrição:**  
+Explora todos os vizinhos de um nó antes de avançar para o próximo nível.  
+Utiliza uma **fila** (estrutura FIFO).  
+
+**Usos comuns:**  
+- Encontrar o menor caminho em grafos não ponderados  
+- Exploração de redes  
+- Resolução de labirintos  
+
+📄 **Arquivo:** `bfs.py`
 
 ---
 
-## ▶️ How to Run
+#### **DFS – Busca em Profundidade**
 
-You can run any algorithm directly with **Python 3**:
+**Descrição:**  
+Segue o caminho mais profundo possível antes de retroceder (backtracking).  
+Utiliza uma **pilha** ou **recursão**.  
+
+**Usos comuns:**  
+- Explorar todos os nós de um grafo  
+- Resolver problemas de backtracking  
+- Detectar ciclos  
+
+📄 **Arquivo:** `dfs.py`
+
+---
+
+## ▶️ Como Executar
+
+Você pode executar qualquer algoritmo diretamente com **Python 3**:
 
 ```bash
 python bfs.py
