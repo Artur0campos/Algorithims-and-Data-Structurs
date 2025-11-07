@@ -13,6 +13,7 @@ Cada algoritmo é implementado com **código limpo** e uma **estrutura organizad
   - [Busca em Grafos](#busca-em-grafos)
     - [BFS – Busca em Largura](#bfs--busca-em-largura)
     - [DFS – Busca em Profundidade](#dfs--busca-em-profundidade)
+    - [Dijkstra – Caminho Mínimo](#dijkstra--caminho-mínimo)
 - [Como Executar](#como-executar)
 - [Próximas Adições](#próximas-adições)
 - [Licença](#licença)
@@ -68,6 +69,21 @@ Utiliza uma **pilha** ou **recursão**.
 
 ---
 
+#### **Dijkstra – Caminho Mínimo**
+
+**Descrição:**  
+Calcula o **menor caminho entre um vértice de origem e todos os outros** em um grafo com pesos **não negativos**.  
+Utiliza uma **fila de prioridade (min-heap)** para escolher sempre o vértice com a menor distância acumulada.  
+
+**Usos comuns:**  
+- GPS e rotas de navegação  
+- Redes de computadores  
+- Planejamento de caminhos em IA  
+
+📄 **Arquivo:** `dijkstra.py`
+
+---
+
 ## ▶️ Como Executar
 
 Você pode executar qualquer algoritmo diretamente com **Python 3**:
@@ -75,3 +91,4 @@ Você pode executar qualquer algoritmo diretamente com **Python 3**:
 ```bash
 python bfs.py
 python dfs.py
+python dijkstra.py
